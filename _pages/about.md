@@ -51,12 +51,16 @@ Zhen Xing, **Qijun Feng**, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jian
 </div>
 
 # 💻 Internships
+<div class="education-box"> 
+<div class="education-box-image">
+<img src="images/education/fvl.jpg" alt="sym" width="100%">
+</div>
 <div class="education-box-text" markdown="1">
-<a href="https://fvl.fudan.edu.cn" style="text-decoration: none;"><strong>Fudan Visual and Learning Lab</strong></a>, 
+<a href="https://fvl.fudan.edu.cn" style="text-decoration: none;"><strong>Fudan Visual and Learning Lab</strong></a>
 <p> <strong>Research Intern</strong> </p>
 <p> <i>2022.09 - present</i> </p>
 <p> <i>Shanghai, China</i> </p>
 </div>
-
+</div>
 <br>
 <br>
