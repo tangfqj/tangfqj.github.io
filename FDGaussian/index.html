@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bulma css template -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- model viewer -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+  <title>
+    FDGaussian
+  </title>
+  <link rel="icon" href="icon.ico">
+
+  <style>
+    .center-text {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .image-container-row1, .glb-container-row1 {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .image-container-row1 img {
+        width: auto;
+        height: 130px;
+    }
+    .glb-container-row1 model-viewer {
+        width: 100%;
+        height: 150px;
+    }
+    .image-container-row2, .glb-container-row2 {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .image-container-row2 img {
+        width: 120px;
+        height: auto;
+    }
+    .glb-container-row2 model-viewer {
+        width: 100%;
+        height: 150px;
+    }
+    .image-container-row3, .glb-container-row3 {
+        width: 30%;
+        margin: 0 10px;
+    }
+    .image-container-row3 img {
+        width: 130px;
+        height: auto;
+    }
+    .glb-container-row3 model-viewer {
+        width: 100%;
+        height: 140px;
+    }
+    
+    .prompt-container,
+    .image-container-t,
+    .glb-container-t {
+      flex: 1;
+      max-width: 30%; 
+      text-align: center; 
+      font-family: "Times New Roman", Times, serif; 
+      font-size: 18px; 
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+
+    <div class="container has-text-centered">
+      <!-- paper title -->
+      <p class="title is-3"> FDGaussian: Fast Gaussian Splatting via Geometric-aware Diffusion Model </p>
+      
+      <div class="center-text"> Anonymous Authors </div>
+    </div>
+  
+
+  <!-- main container -->   
+    <center>
+      <div style="max-width: 800px;">
+      <p class="title is-3 mt-5 has-text-centered"> Novel View Generation and 3D Reconstruction </p>
+      <video muted autoplay loop> <source src="assets/display1.mp4" type="video/mp4"> </video>
+      </div>
+    </center>
+    <p class="title is-3 mt-5 has-text-centered"> Qualitative Comparison </p>
+    <center>
+      <div style="max-width: 800px;">
+      <video muted autoplay loop> <source src="assets/display2.mp4" type="video/mp4"> </video>
+      </div>
+    </center>
+
+    
+    <!-- 3d model viewer -->
+    <p class="title is-3 mt-5 has-text-centered"> Interactive Results </p>
+    <center>
+    <div class="row" style="max-width: 1000px;">
+      <div class="image-container-row1">
+        <img src="assets/panda.png" alt="panda">
+      </div>
+      <div class="glb-container-row1">
+        <model-viewer src="assets/panda.glb" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row1">
+        <img src="assets/anya.png" alt="windmill">
+      </div>
+      <div class="glb-container-row1">
+        <model-viewer src="assets/anya.glb" poster="assets/image2.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row1">
+        <img src="assets/lamp.png" alt="Image 3">
+      </div>
+      <div class="glb-container-row1">
+        <model-viewer src="assets/lamp.glb" poster="assets/image3.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+    </div>
+    <div class="row" style="max-width: 1000px;">
+      <div class="image-container-row2">
+        <img src="assets/shark.png" alt="Image 1">
+      </div>
+      <div class="glb-container-row2">
+        <model-viewer src="assets/shark.glb" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row2">
+        <img src="assets/bed.png" alt="Image 2">
+      </div>
+      <div class="glb-container-row2">
+        <model-viewer src="assets/bed.glb" poster="assets/image2.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row2">
+          <img src="assets/clock.jpg" alt="Image 3">
+      </div>
+      <div class="glb-container-row2">
+          <model-viewer src="assets/clock.glb" poster="assets/image3.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+    </div>
+    <div class="row" style="max-width: 1000px;">
+      <div class="image-container-row3">
+        <img src="assets/filesorter.jpg" alt="Image 1">
+      </div>
+      <div class="glb-container-row3">
+        <model-viewer src="assets/filesorter.glb" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row3">
+        <img src="assets/bus.jpg" alt="Image 2">
+      </div>
+      <div class="glb-container-row3">
+        <model-viewer src="assets/bus.glb" poster="assets/image2.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+      <div class="image-container-row3">
+        <img src="assets/table.png" alt="Image 3">
+      </div>
+      <div class="glb-container-row3">
+        <model-viewer src="assets/table.glb" poster="assets/image3.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+      </div>
+    </div>
+    </center>  
+    <p class="title is-3 mt-5 has-text-centered"> Text-to-image-to-3D </p>
+    
+    <div class="container" style="max-width: 1000px;">
+      <div class="row">
+        <div class="prompt-container">
+          <p>A grey double sofa.</p>
+        </div>
+        <div class="image-container-t">
+          <img src="assets/sofa.png" alt="Image 1" width="130px" height="auto">
+        </div>
+        <div class="glb-container-t">
+          <model-viewer src="assets/sofa.glb" poster="assets/image1.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        </div>
+      </div>
+      <div class="row">
+        <div class="prompt-container">
+          <p>A basket of bread.</p>
+        </div>
+        <div class="image-container-t">
+          <img src="assets/bread.png" alt="Image 1" width="130px" height="auto">
+        </div>
+        <div class="glb-container-t">
+          <model-viewer src="assets/bread.glb" poster="assets/image1.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        </div>
+      </div>
+      <div class="row">
+        <div class="prompt-container">
+          <p>A telephone in vintage style.</p>
+        </div>
+        <div class="image-container-t">
+          <img src="assets/telephone.png" alt="Image 1" width="130px" height="auto">
+        </div>
+        <div class="glb-container-t">
+          <model-viewer src="assets/telephone.glb" poster="assets/image1.jpg" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>
