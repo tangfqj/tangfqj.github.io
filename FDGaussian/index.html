@@ -81,12 +81,44 @@
 
     <div class="container has-text-centered">
       <!-- paper title -->
-      <p class="title is-3"> FDGaussian: Fast Gaussian Splatting via Geometric-aware Diffusion Model </p>
-      
-      <div class="center-text"> Anonymous Authors </div>
+      <h1 class="title is-1 publication-title">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</h1>
+      <!-- publication -->
+      <p class="subtitle is-4"> Arxiv 2024 </p>
+      <!-- authors -->
+      <p class="title is-5 mt-2"> 
+        <a href="https:qjfeng.net" target="_blank">Qijun Feng</a>, 
+        <a href="https://chenhsing.github.io/" target="_blank">Zhen Xing</a>, 
+        <a href="https://scholar.google.com/citations?user=7t12hVkAAAAJ" target="_blank">Zuxuan Wu</a>, 
+        <a href="https://scholar.google.com/citations?user=f3_FP8AAAAAJ" target="_blank">Yu-Gang Jiang</a>
+      <!-- affiliations -->
+      <p class="subtitle is-5"> 
+        Fudan Univerisity &nbsp;
+      </p>
+  
+      <!-- other links -->
+      <div class="is-flex is-justify-content-center">
+        <span class="icon-text mx-1">
+          <a class="button is-dark" href="" role="button" target="_blank"> <span class="icon"> <ion-icon name="document-outline"></ion-icon> </span> <span> Arxiv </span>  </a> 
+        </span>
+        <span class="icon-text mx-1">
+          <a class="button is-dark" href="" role="button" target="_blank"> <span class="icon"> <ion-icon name="logo-github"></ion-icon> </span> <span> Code </span> </a> 
+        </span>
+      </div>
     </div>
   
-
+    <div class="container is-max-desktop has-text-centered">
+    <p class="title is-3 mt-5 has-text-centered"> Abstract </p>
+    <p class="content is-size-6 has-text-justified">
+      Reconstructing detailed 3D objects from single-view images remains a challenging task due to the limited information available. 
+      In this paper, we introduce <b>FDGaussian</b>, a novel two-stage framework for single-image 3D reconstruction. 
+      Recent methods typically utilize pre-trained 2D diffusion models to generate plausible novel views from the input image, yet they 
+      encounter issues with either multi-view inconsistency or lack of geometric fidelity. To overcome these challenges, we propose an 
+      orthogonal plane decomposition mechanism to extract 3D geometric features from the 2D input, enabling the generation of consistent 
+      multi-view images. Moreover, we further accelerate the state-of-the-art Gaussian Splatting incorporating epipolar attention to fuse 
+      images from different viewpoints. We demonstrate that FDGaussian generates images with high consistency across different views and 
+      reconstructs high-quality 3D objects, both qualitatively and quantitatively.
+    </p>  
+    </div>
   <!-- main container -->   
     <center>
       <div style="max-width: 800px;">
@@ -204,6 +236,23 @@
       </div>
     </div>
     
+    <!-- citation -->
+    <div class="container is-max-desktop has-text-centered">
+      <div class="card mt-4">
+        <header class="card-header">
+          <p class="card-header-title"> Citation </p>
+        </header>
+        <div class="card-content is-size-5 has-text-left">
+        <pre><code>@misc{feng2024fdgaussian,
+          title={FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model},
+          author={Qijun Feng and Zhen Xing and Zuxuan Wu and Yu-Gang Jiang},
+          year={2024},
+          eprint={},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}}</code></pre>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 </html>
