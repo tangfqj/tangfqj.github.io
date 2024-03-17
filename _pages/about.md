@@ -27,11 +27,59 @@ My primary research interests lie at the intersection of machine learning and co
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 📝 Publications 
+<div class='paper-box-with-video'>
+  <div class='paper-box-image-video'>
+    <div>
+      <video src="images/publications/fdgaussian.mp4" width="100%" autoplay muted loop></video>
+    </div>
+  </div>
 
-Zhen Xing, **Qijun Feng**, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang, <a href="http://arxiv.org/abs/2310.10647" style="text-decoration: none;">A Survey on Video Diffusion Models</a>, <i>arXiv preprint arXiv:2310.10647</i> (2023). 
+  <div class='paper-box-text' markdown="1">
+
+  <a href="https://objnerf.github.io" style="text-decoration: none;"><strong>FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</strong></a>
+
+  <p> <strong>Qijun Feng</strong>, Zhen Xing, Zuxuan Wu, Yu-Gang Jiang </p>
+  <p> <i> arXiv preprint</i> </p>
+
+
+  <a href="https://qjfeng.net/FDGaussian" ><strong>Project</strong></a>, 
+  <a href="https://arxiv.org/abs/2311.15291" ><strong>Paper</strong></a>
+  <!-- <a href=""><strong>Code</strong></a>,  -->
+  <!-- <a href="https://www.youtube.com/watch?v=VEwYrSPFatg"><strong>Video</strong></a>,  -->
+  <!-- <a href="sources/paper_objnerf/paper.pdf"><strong>PDF</strong></a> -->
+  <!-- <a href=""><strong>BibTex</strong></a>  -->
+  <!-- <a href=""><strong>Supp</strong></a>,  -->
+  <!-- <a href=""><strong>Poster</strong></a>,  -->
+  <!-- <a href=""><strong>Slides</strong></a> -->
+  <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+
+  <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
+  </div>
+</div>
+
+<div class='paper-box'> 
+
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Under Review</div>
+      <img src='images/publications/vdm-survey' alt="sym" width="100%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+  <a href="http://arxiv.org/abs/2310.10647"  style="text-decoration: none;"><strong>A Survey on Video Diffusion Models</strong></a>
+
+  <p>Zhen Xing, **Qijun Feng**, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</p>
+  <p><i>arXiv preprint</i></p>
 
   <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>, 
   <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models"><strong>Project</strong></a>
+  
+
+  </div>
+</div>
+  
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
