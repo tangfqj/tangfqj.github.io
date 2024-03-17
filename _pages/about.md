@@ -70,7 +70,7 @@ My primary research interests lie at the intersection of machine learning and co
   <div class='paper-box-text' markdown="1">
   <a href="http://arxiv.org/abs/2310.10647"  style="text-decoration: none;"><strong>A Survey on Video Diffusion Models</strong></a>
 
-  <p>Zhen Xing, **Qijun Feng**, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</p>
+  <p>Zhen Xing, <strong>Qijun Feng</strong>, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</p>
   <p><i>arXiv preprint</i></p>
 
   <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>, 
