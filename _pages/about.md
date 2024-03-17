@@ -63,7 +63,7 @@ My primary research interests lie at the intersection of machine learning and co
   <div class='paper-box-image'>
     <div>
       <div class="badge">Under Review</div>
-      <img src='images/publications/vdm-survey' alt="sym" width="100%">
+      <img src='images/publications/vdm-survey.png' alt="sym" width="100%">
     </div>
   </div>
 
