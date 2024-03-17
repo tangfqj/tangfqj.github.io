@@ -30,7 +30,7 @@ My primary research interests lie at the intersection of machine learning and co
 <div class='paper-box-with-video'>
   <div class='paper-box-image-video'>
     <div>
-      <img src="images/publications/fdgaussian-img.png alt="sym" width="100%">
+      <img src="images/publications/fdgaussian-img.png alt="sym" width="100%"></img>
       <video src="images/publications/fdgaussian-video.mp4" width="100%" autoplay muted loop></video>
     </div>
   </div>
@@ -74,9 +74,8 @@ My primary research interests lie at the intersection of machine learning and co
   <p>Zhen Xing, <strong>Qijun Feng</strong>, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</p>
   <p><i>arXiv preprint</i></p>
 
-  <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>, 
-  <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models"><strong>Project</strong></a>
-  
+  <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models"><strong>Project</strong></a>,
+  <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>
 
   </div>
 </div>
