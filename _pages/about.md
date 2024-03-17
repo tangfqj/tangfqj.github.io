@@ -30,14 +30,14 @@ My primary research interests lie at the intersection of machine learning and co
 <div class='paper-box-with-video'>
   <div class='paper-box-image-video'>
     <div>
-      <img src="images/publications/fdgaussian-img.png alt="sym" width="100%"></img>
+      <!-- <img src="images/publications/fdgaussian-img.png alt="sym" width="100%"> -->
       <video src="images/publications/fdgaussian-video.mp4" width="100%" autoplay muted loop></video>
     </div>
   </div>
 
   <div class='paper-box-text' markdown="1">
 
-  <a href="https://objnerf.github.io" style="text-decoration: none;"><strong>FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</strong></a>
+  <a href="https://qjfeng.net/FDGaussian" style="text-decoration: none;"><strong>FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</strong></a>
 
   <p> <strong>Qijun Feng</strong>, Zhen Xing, Zuxuan Wu, Yu-Gang Jiang </p>
   <p> <i> arXiv preprint</i> </p>
