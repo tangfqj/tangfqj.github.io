@@ -28,7 +28,7 @@ My primary research interests lie at the intersection of machine learning and co
 
 # 📝 Publications 
 <div class='paper-box-with-video'>
-  <div class='paper-box-image-video'>
+  <div class='paper-box-video'>
     <div>
       <!-- <img src="images/publications/fdgaussian-img.png alt="sym" width="100%"> -->
       <video src="images/publications/fdgaussian-video.mp4" width="100%" autoplay muted loop></video>
