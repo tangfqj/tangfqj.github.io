@@ -102,8 +102,14 @@ My primary research interests lie at the intersection of machine learning and co
 <div class="education-box-text" markdown="1">
 <a href="https://fvl.fudan.edu.cn" style="text-decoration: none;"><strong>Fudan Visual and Learning Lab</strong></a>
 <p> <strong>Research Intern</strong> </p>
-<p> <i>2022.09 - present</i> </p>
+<p> <i>2022.09 - 2024.05</i> </p>
 <p> <i>Shanghai, China</i> </p>
+</div>
+<div class="education-box-text" markdown="1">
+<a href="https://www.khoury.northeastern.edu" style="text-decoration: none;"><strong>Khoury College of Computer Sciences, Northeastern University</strong></a>
+<p> <strong>Research Intern</strong> </p>
+<p> <i>2024.05 - present</i> </p>
+<p> <i>Boston, U.S.</i> </p>
 </div>
 <br>
 <br>
