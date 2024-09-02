@@ -17,14 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a junior student in the <a href="https://cs.fudan.edu.cn/" style="text-decoration: none;">School of Computer Science</a>, Fudan University. 
+I'm a senior student in the <a href="https://cs.fudan.edu.cn/" style="text-decoration: none;">School of Computer Science</a>, Fudan University. 
 
 My primary research interests lie at the intersection of machine learning and computer vision, with a particular emphasis on 3D and video synthesis. My goal is to develop advanced models that can generate videos and 3D models not only mimic real-world scenes but also exhibit a nuanced understanding of underlying context and semantics.
 
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+# 🔥 News
+- *2024.08*: &nbsp;🎉🎉 “A Survey on Video Diffusion Models” is accepted by ACM Computing Surveys.
 
 # 📝 Publications 
 <div class='paper-box'>
@@ -63,7 +62,6 @@ My primary research interests lie at the intersection of machine learning and co
 
   <div class='paper-box-image'>
     <div>
-      <div class="badge">Under Review</div>
       <img src='images/publications/vdm-survey.png' alt="sym" width="100%">
     </div>
   </div>
@@ -72,7 +70,7 @@ My primary research interests lie at the intersection of machine learning and co
   <a href="http://arxiv.org/abs/2310.10647"  style="text-decoration: none;"><strong>A Survey on Video Diffusion Models</strong></a>
 
   <p>Zhen Xing, <strong>Qijun Feng</strong>, Haoran Chen, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang</p>
-  <p><i>arXiv preprint</i></p>
+  <p><i>ACM Computing Surveys, 2024</i></p>
 
   <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models"><strong>Project</strong></a>,
   <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>
@@ -106,7 +104,7 @@ My primary research interests lie at the intersection of machine learning and co
 <p> <i>Shanghai, China</i> </p>
 </div>
 <div class="education-box-text" markdown="1">
-<a href="https://www.khoury.northeastern.edu" style="text-decoration: none;"><strong>Khoury College of Computer Sciences, Northeastern University</strong></a>
+<a href="https://jianghz.me/" style="text-decoration: none;"><strong>Visual Intelligence Lab, Northeastern University</strong></a>
 <p> <strong>Research Intern</strong> </p>
 <p> <i>2024.05 - present</i> </p>
 <p> <i>Boston, U.S.</i> </p>
