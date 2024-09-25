@@ -73,8 +73,8 @@ My primary research interests lie at the intersection of machine learning and co
   <p><i>ACM Computing Surveys, 2024</i></p>
 
   <a href="https://github.com/ChenHsing/Awesome-Video-Diffusion-Models"><strong>Project</strong></a>,
-  <a href="http://arxiv.org/pdf/2310.10647.pdf"><strong>Paper</strong></a>
-
+  <a href="https://dl.acm.org/doi/10.1145/3696415#"><strong>Paper</strong></a>
+  <a href="http://arxiv.org/abs/2310.10647"><strong>ArXiv</strong></a>
   </div>
 </div>
   
