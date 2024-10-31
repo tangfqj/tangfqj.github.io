@@ -11,7 +11,7 @@
   <!-- model viewer -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
   <title>
-    FDGaussian
+    GeoGS3D
   </title>
   <link rel="icon" href="icon.ico">
 
@@ -81,7 +81,7 @@
 
     <div class="container has-text-centered">
       <!-- paper title -->
-      <h1 class="title is-1 publication-title">FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</h1>
+      <h1 class="title is-1 publication-title">GeoGS3D: Single-view 3D Reconstruction via Geometric-aware Diffusion Model and Gaussian Splatting</h1>
       <!-- publication -->
       <p class="subtitle is-4"> Arxiv 2024 </p>
       <!-- authors -->
@@ -109,14 +109,11 @@
     <div class="container is-max-desktop has-text-centered">
     <p class="title is-3 mt-5 has-text-centered"> Abstract </p>
     <p class="content is-size-6 has-text-justified">
-      Reconstructing detailed 3D objects from single-view images remains a challenging task due to the limited information available. 
-      In this paper, we introduce <b>FDGaussian</b>, a novel two-stage framework for single-image 3D reconstruction. 
-      Recent methods typically utilize pre-trained 2D diffusion models to generate plausible novel views from the input image, yet they 
-      encounter issues with either multi-view inconsistency or lack of geometric fidelity. To overcome these challenges, we propose an 
-      orthogonal plane decomposition mechanism to extract 3D geometric features from the 2D input, enabling the generation of consistent 
-      multi-view images. Moreover, we further accelerate the state-of-the-art Gaussian Splatting incorporating epipolar attention to fuse 
-      images from different viewpoints. We demonstrate that FDGaussian generates images with high consistency across different views and 
-      reconstructs high-quality 3D objects, both qualitatively and quantitatively.
+      We introduce GeoGS3D, a novel two-stage framework for reconstructing detailed 3D objects from single-view images.
+      Inspired by the success of pre-trained 2D diffusion models, our method incorporates an orthogonal plane decomposition mechanism to extract 3D geometric features from the 2D input, facilitating the generation of multi-view consistent images.
+      During the following Gaussian Splatting, these images are fused with epipolar attention, fully utilizing the geometric correlations across views.
+      Moreover, we propose a novel metric, Gaussian Divergence Significance (GDS), to prune unnecessary operations during optimization, significantly accelerating the reconstruction process.
+      Extensive experiments demonstrate that \methodname~generates images with high consistency across views and reconstructs high-quality 3D objects, both qualitatively and quantitatively.
     </p>  
     </div>
   <!-- main container -->   

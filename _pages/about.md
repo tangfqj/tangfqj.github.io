@@ -36,13 +36,13 @@ My primary research interests lie at the intersection of machine learning and co
 
   <div class='paper-box-text' markdown="1">
 
-  <a href="https://arxiv.org/abs/2403.10242" style="text-decoration: none;"><strong>FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model</strong></a>
+  <a href="https://arxiv.org/abs/2403.10242" style="text-decoration: none;"><strong>GeoGS3D: Singe-view 3D Reconstruction via Geometric-aware Diffusion Model and Gaussian Splatting</strong></a>
 
   <p> <strong>Qijun Feng</strong>, Zhen Xing, Zuxuan Wu, Yu-Gang Jiang </p>
   <p> <i> arXiv preprint</i> </p>
 
 
-  <a href="https://qjfeng.net/FDGaussian" ><strong>Project</strong></a>, 
+  <a href="https://qjfeng.net/GeoGS3D" ><strong>Project</strong></a>, 
   <a href="https://arxiv.org/pdf/2403.10242.pdf" ><strong>Paper</strong></a>
   <!-- <a href=""><strong>Code</strong></a>,  -->
   <!-- <a href="https://www.youtube.com/watch?v=VEwYrSPFatg"><strong>Video</strong></a>,  -->
