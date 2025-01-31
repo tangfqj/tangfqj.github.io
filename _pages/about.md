@@ -110,7 +110,8 @@ My primary research interests lie at the intersection of machine learning and co
 <p> <i>Boston, U.S.</i> </p>
 </div>
 <div class="education-box-text" markdown="1">
-<a> <strong>ByteDance></strong></a>
+<a> <strong>ByteDance</strong></a>
+<p> <strong>Product RD and Infrastructure Intern</string></p>
 <p> <i>2025.01 - present</i></p>
 <p> <i>Shanghai, China</i></p>
 </div>
