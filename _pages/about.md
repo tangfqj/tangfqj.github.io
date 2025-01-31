@@ -106,8 +106,13 @@ My primary research interests lie at the intersection of machine learning and co
 <div class="education-box-text" markdown="1">
 <a href="https://jianghz.me/" style="text-decoration: none;"><strong>Visual Intelligence Lab, Northeastern University</strong></a>
 <p> <strong>Research Intern</strong> </p>
-<p> <i>2024.05 - present</i> </p>
+<p> <i>2024.05 - 2024.10</i> </p>
 <p> <i>Boston, U.S.</i> </p>
+</div>
+<div class="education-box-text" markdown="1">
+<a> <strong>ByteDance></strong></a>
+<p> <i>2025.01 - present</i></p>
+<p> <i>Shanghai, China</i></p>
 </div>
 <br>
 <br>
