@@ -111,7 +111,7 @@ My primary research interests lie at the intersection of machine learning and co
 </div>
 <div class="education-box-text" markdown="1">
 <a> <strong>ByteDance</strong></a>
-<p> <strong>Product RD and Infrastructure Intern</string></p>
+<p> <strong>Product RD Intern</strong></p>
 <p> <i>2025.01 - present</i></p>
 <p> <i>Shanghai, China</i></p>
 </div>
